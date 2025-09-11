@@ -1,0 +1,23 @@
+   h1{
+            /* color:rgb(255, 255, ) ; */
+            /* color: #0a4e67; */
+            color:#ff0;
+            /* background-color: black; */
+            font-weight: 200 ;
+            /* text-decoration color: red; */
+           text-decoration-style: dotted ;
+             text-decoration: #ff0000 wavy underline;
+             font-size: 15px ;
+             font-family: avant garde,didot,sans-serif ;
+
+        }
+        p{
+            color:blueviolet;
+            background-color: blanchedalmond;
+            line-height: 3;
+            letter-spacing: 10px;
+        }
+        button{
+            color: aquamarine;
+            background-color: black;
+        }
