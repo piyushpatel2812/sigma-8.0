@@ -63,7 +63,7 @@
 //         console.log("grade:a");
 //     }
 // }else{
-//     consolr.log("bettter for next time ");
+//     console.log("bettter for next time ");
 // }
 
 //   practicce QS
@@ -97,11 +97,11 @@
 // }
 
 
-// let name=prompt("enter name");
-// let age=prompt("enter your age");
-// alert(`${name} is ${age} years old`);
+let name=prompt("enter name");
+let age=prompt("enter your age");
+alert(`${name} is ${age} years old`);
 
 //       String method
-let msg="hello"
-// console.log(msg.trim().toUpperCase());
-console.log(msg.slice(-2));
+// let msg="hello"
+// // console.log(msg.trim().toUpperCase());
+// console.log(msg.slice(-2));

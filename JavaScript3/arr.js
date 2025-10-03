@@ -29,13 +29,21 @@
 // console.log(char.sort());
 
 
-// practice questtion
-let start=["jan","july","march","aug"];
-console.log(start);
-start.splice(0,2,"july","june");
-start.slice(1,1,"june");
-console.log(start);
-let num=[[2,3],[2,6],[4,5,]];
-console.log(num);
+// // practice questtion
+
+// let start=["jan","july","march","aug"];
+// console.log(start);
+// start.splice(0,2,"july","june");
+// start.slice(1,1,"june");
+// console.log(start);
+// let num=[[2,3],[2,6],[4,5,]];
+// console.log(num);
+
+
+
+
+
+
+
 
 

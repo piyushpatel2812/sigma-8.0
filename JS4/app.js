@@ -2,7 +2,7 @@
 //     console.log(i);
 // }
 
-    //  print odd number
+                      //  print odd number
 // for(let i=1;i<=16;i=i+2){
 // console.log(i);
 // }
@@ -18,14 +18,14 @@
 //     console.log(i);
 // }
 
-//  print any number tabel
+                //  print any number tabel
 // let n=prompt("write your number");
 // n=parseInt(n);
 // for(let i=n;i<=n*10;i=i+n){
 //     console.log(i);
 // }
 
-//nested for loop
+                              //nested for loop
 
 // for(let i=1;i<=3;i++){
 //     console.log(`outer loop ${i}`);
@@ -66,8 +66,8 @@
 //     console.log("quit");
 // }
 
-
-// for loop in array
+ 
+                                 // for loop in array
 
 
 // let fruits=["mango","apple","banana","litchi","orange"];
@@ -86,7 +86,7 @@
 // }
 
 
-//  foor of 'mangoloop
+                       //  foor of 'mangoloop
 // let fruits=["mango","apple","banana","litchi"];
 // for(fruit of fruits){
 //     console.log(fruit);
@@ -96,11 +96,11 @@
 //     console.log(char);
 // }
 
-//nested for of loop
-let hero=[["ironman","spiderman","thor"],["superman","wonder woman","flash"]];
-for(list of hero){
-    console.log(list);
-    for(name of list){
-        console.log(name);
-    }
-}
+                        //nested for of loop
+// let hero=[["ironman","spiderman","thor"],["superman","wonder woman","flash"]];
+// for(list of hero){
+//     console.log(list);
+//     for(name of list){
+//         console.log(name);
+//     }
+// }

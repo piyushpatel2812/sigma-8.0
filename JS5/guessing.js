@@ -11,6 +11,7 @@ while(true){
         console.log("user quit");
         break;
     }
+    
 
 if(guess== random){
     console.log("you are right! congrats!!" ,random);
