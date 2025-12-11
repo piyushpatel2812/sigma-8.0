@@ -1,0 +1,38 @@
+h2{
+    color: goldenrod;
+}
+span{
+    color: blue;
+}
+
+img{
+    height: 200px;
+    width:65%;
+    border-radius:10%;
+     
+    
+   
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.card{
+ width: 500px;
+ border: 2px solid black;
+ border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+ text-align: center;
+
+}
+body{
+    background-color: antiquewhite;
+}
+@media(max-width:400px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}

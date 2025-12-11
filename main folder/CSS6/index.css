@@ -1,0 +1,28 @@
+.container{
+    height: 300px;
+    width:600px;
+    background-color: yellowgreen;
+    display:grid;
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px ; */
+    grid-template-rows:repeat(4,1fr);
+     grid-template-columns:repeat(3,1fr);
+/* row-gap: 10px;
+column-gap : 20px; */
+grid-gap:10px 20px
+}
+    .item{
+    /* width: 100px;
+    height: 50px; */
+    background-color:red;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.one{
+    /* grid-column-start:1;
+    grid-column-end:4; */
+    /* grid-column:1/2; */
+    grid-row:1/3
+
+}
