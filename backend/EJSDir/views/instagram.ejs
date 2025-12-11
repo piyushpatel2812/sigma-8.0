@@ -1,0 +1,13 @@
+<%-includes("includes/head.ejs")%>
+<body>
+    <h2>This page belongs to <%= username %></h2>
+    <button>Follow</button>
+<button>Message</button>
+
+<ul>
+    <% for(let name of follower){%>
+    <li><%=name%></li>
+<%}%>
+</ul>
+</body>
+</html>
