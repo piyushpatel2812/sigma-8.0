@@ -1,23 +1,23 @@
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
-// mongoose.connect('mongodb://127.0.0.1:27017/test');// connect node.js to databse 1st
+// // mongoose.connect('mongodb://127.0.0.1:27017/test');// connect node.js to databse 1st
 
-main()// connect node.js to databse 1st
-.then(() => {
-    console.log("connection successfull");
-})
-.catch((err) => console.log(err));
+// main()// connect node.js to databse 1st
+// .then(() => {
+//     console.log("connection successfull");
+// })
+// .catch((err) => console.log(err));
 
-async function main() {
-   await mongoose.connect('mongodb://127.0.0.1:27017/test');
+// async function main() {
+//    await mongoose.connect('mongodb://127.0.0.1:27017/test');
     
-}
-// create user schema
-const userSchema =new mongoose.Schema({
-    name:String,
-    email:String,
-    age:Number,
-});
+// }
+// // create user schema
+// const userSchema =new mongoose.Schema({
+//     name:String,
+//     email:String,
+//     age:Number,
+// });
 
 // const User = mongoose.model("User", userSchema);//create model/document
 // const employee = mongoose.model("employee", userSchema);
@@ -42,7 +42,7 @@ const userSchema =new mongoose.Schema({
 // });
 
 // // insert multipe data at a time
-const User = mongoose.model("User", userSchema);
+// const User = mongoose.model("User", userSchema);
 
 // User.insertMany([
 //     {name:"piyush",email:"piyush124@gmail.com",age:45},
@@ -87,6 +87,34 @@ const User = mongoose.model("User", userSchema);
 //     console.log(res);
 // })
 
-User.findOneAndDelete({age:{$gte:12}}).then((res)=>{
-    console.log(res);
+// User.findOneAndDelete({age:{$gte:12}}).then((res)=>{
+//     console.log(res);
+// })
+
+// // schema validation
+const mongoose = require('mongoose');
+
+// mongoose.connect('mongodb://127.0.0.1:27017/test');// connect node.js to databse 1st
+
+main()// connect node.js to databse 1st
+.then(() => {
+    console.log("connection successfull");
 })
+.catch((err) => console.log(err));
+
+async function main() {
+   await mongoose.connect('mongodb://127.0.0.1:27017/test');
+    
+}
+// create user schema
+const userSchema =new mongoose.Schema({
+    name:String,
+    email:String,
+    age:Number,
+});
+const User = mongoose.model("User", userSchema);
+
+
+
+
+
